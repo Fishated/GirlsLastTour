@@ -1,0 +1,75 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: monospace;
+}
+::selection {
+    background-color: black;
+    color: white;
+}
+
+.introduction {
+    text-align: center;
+    margin: 100px 15%;
+}
+
+a {color: black;}
+a:hover {text-decoration: underline;}
+
+h1 {
+    font-size: 16vh;
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+.volumes {
+    width: 100%;
+    text-align: left;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr auto;
+}
+
+ul {
+    list-style: none;
+    width: 70%;
+    padding: 0px;
+}
+
+li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 20px;
+}
+li {
+    width: 400px;
+    margin: 50px 0px;
+    padding: 5px 0px;
+    background-color: black;
+}
+
+h2 {
+    width: 300px;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+img {
+    width: 700px;
+    margin: 0px 200px;
+}
+
+#vol6 {
+    background: url(assets/background⁄images/bg-vol6.jpg) no-repeat center;
+    height: 1377px;
+}
+
+#description {
+    margin-bottom: 60px;
+}
