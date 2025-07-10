@@ -73,3 +73,11 @@ img {
 #description {
     margin-bottom: 60px;
 }
+
+@media (max-width: 1240px) {
+    .volumes img {display: none;}
+    h1 {font-size: 10vh;}
+    ul {width: 100%;}
+    li {width: 90%;}
+    .introduction {margin-bottom: 20px;}
+}
